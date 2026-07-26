@@ -1,0 +1,2 @@
+Dataset Link : c:\Users\hunny\Downloads\automobile_dataset.csv
+Colab File Link : c:\Users\hunny\OneDrive\Desktop\colab_py\automobile.ipynb - Colab (KANISHKA).lnk
