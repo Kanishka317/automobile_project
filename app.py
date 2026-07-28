@@ -36,7 +36,7 @@ def predict_sp(
         ]])
     input_scaled = scaler.transform(input_data)
     
-    cluster = model.predict(input_data)[0]
+    cluster = model.predict(input_scaled)[0]
 
     # Return the corresponding category
     return f"Predicted Category: {cluster_names.get(cluster, 'Unknown Category')}"
